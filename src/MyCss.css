@@ -1,0 +1,51 @@
+.main-form{
+    width:40vw;
+    margin:auto;
+    text-align: right;
+    border: .2px solid rgba(223, 223, 223, 0.527);
+    padding: 15px;
+    border-radius: 12px;
+    background-color: rgb(223 223 223 / 29%);
+}
+.main-form:hover{
+    background-color: rgba(223, 223, 223, 0.411);
+    border: .2px solid rgba(223, 223, 223, 0.781);
+}
+h2{
+    text-align: center;
+}
+.leftText{
+    text-align: left;
+}
+@media (max-width:800px) {
+    .main-form{
+        width:70vw;
+    }
+}
+
+.mybox {
+    padding: 10px; /* Add padding to create space inside the box */
+    border: 1px solid #21a500; /* Add border for visual separation */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    background-color: #daf9e263;
+}
+
+.desc {
+    word-wrap: break-word; /* Allow text to wrap onto the next line */
+    overflow: hidden; /* Hide any content that overflows the box */
+}
+.del-btn{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 8px; 
+    background-color: rgb(196, 0, 0);
+    color: white;
+    
+}
+.del-btn:hover{
+    background-color: rgb(199, 40, 40);
+    border: 2px solid rgb(0, 0, 0);
+    color: black;
+    font-weight: bolder;
+
+}
+
